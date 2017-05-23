@@ -1,0 +1,80 @@
+
+.noLista {
+  list-style: none;
+
+}
+.margen {
+  margin: 3%;
+}
+.navDispaly{
+  display: flex;
+  direction: column;
+}
+.espacioNav {
+  margin-right: 4%;
+}
+.colorFondo{
+  background-color: #f7b617;
+}
+.colorLetrasBlanco{
+  color: white;
+}
+.posocionContenedor {
+
+}
+.diplayCuadroUsuario {
+  position: absolute;
+  bottom: 30%;
+
+}
+.anchoImagen1 {
+  width: 39.5%;
+}
+.margenTitulo {
+  margin-left: 7%;
+}
+.margenLeft {
+  margin-left: 9%;
+}
+.sinBorde {
+  border: 0;
+}
+.bajarTexto {
+  margin-top: 25%;
+}
+.anchoImagenLabBlanco {
+  width: 15%;
+}
+.tipoLetra {
+  font-weight: bold;
+}
+.margenHr {
+  margin-top: 3%;
+}
+.marjenBajo {
+  margin-bottom: 5%;
+}
+.colorFondo {
+  background-color: #f7b617;
+}
+.margenContenedorImagenApp {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.margenImagenApp {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 10%;
+}
+
+.bordeSeccionApp {
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+}
+.tamañoParrafoApp {
+  font-size: 150%;
+}
+.margenParrafoApp {
+  margin-top: 8%;
+}
