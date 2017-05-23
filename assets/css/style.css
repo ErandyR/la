@@ -128,3 +128,9 @@
 .formaInput {
   border: 1px solid white;
 }
+.anchoInput {
+  width: 70%;
+}
+.margenInput {
+  margin-top: 7%;
+}
