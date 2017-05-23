@@ -21,9 +21,8 @@
       </header>
       <!-- aqui empieza el recuadro de registro -->
       <section class="row posocionContenedor">
-        <div class="col-md-12">
-          <img src="assets/img/taxi2.jpg" class="img-responsive " alt="Responsive image">
-          <div class="col-md-offset-7 colorFondo diplayCuadroUsuario anchoImagen1">
+        <div class="col-md-12" id="contenedorImagenTaxi">
+          <div class="col-md-offset-7 col-md-5 colorFondo margenContenedorRegistro">
             <h2 class="row colorLetrasBlanco col-md-12">
               <span class="col-md-12 margenTitulo">Disfruta el viaje </span>
               <span class="col-md-12 margenTitulo">Eres dueño de tu tiempo</span>
@@ -49,7 +48,7 @@
       <div class="colorFondo col-md-12">
         <div class="row margenContenedorImagenApp bordeSeccionApp col-md-10">
           <div class="margenImagenApp col-md-5">
-            <img src="assets/img/iPhone6Plus.png" >
+            <img src="assets/img/iPhone6Plus.png" class="anchoImagenApp">
           </div>
           <div class="col-md-4 margenHr">
             <h3 class="colorLetrasBlanco"><a href="#" class="colorLetrasBlanco">Descargar la nueva app</a></h3>
@@ -70,7 +69,49 @@
         </div>
       </div>
     </section>
+    <!-- seccion conviertete en conductor -->
+    <section class="row">
+      <div class="col-md-12" id="imagenConductor">
+
+        <div class="colorOpaco col-md-offset-7 col-md-5">
+          <h2 class="colorLetrasBlanco margenAltoConductor margenLeftConductor">Conduce cuando quieras</h2>
+          <p class="colorLetrasBlanco margenTextoConductor tamañoLetrasConductor">
+            LabCar es una opció flexible
+            para alcanzar tus metas financieras.
+          </p>
+          <div class="marjenBajoConductor margenLeftConductor">
+            <button class="btn colorBotonConductor colorLetrasBlanco" type="submit"><strong>Conviértete en un conductor</strong></button>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- seccion mapa -->
+    <section class="row">
+      <div class="col-md-12 fondoColor">
+        <div class="col-md-6">
+          <h3 class="colorLetrasBlanco col-md-12">Tarifas</h3>
+          <p class="col-md-12 colorLetrasBlanco">
+            Cosulta las tarifas LabCar aquí
+          </p>
+
+          <div class="col-md-12">
+            <img src="assets/img/shape.png" alt="">
+            <input type="text" class="colorFondo formaInput" placeholder="Text input">
+          </div>
+          <div class="col-md-12">
+            <img src="impg.png" alt="">
+            <input type="text" name="destino" value="" placeholder="Ingrese su destino">
+          </div>
+          <div class="col-md-12">
+            <button class="btn btn-default" type="submit"> <strong>¡TRAZAR RUTA!</strong></button>
+          </div>
+        </div>
+        <div class="col-md-5 margenAltoMapa">
+          <img src="assets/img/imagenMapa.png" class="tamañoImagenMapa bordeContenedorMapa">
+        </div>
+      </div>
+    </section>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-     <script type="text/javascript" src="assets/js/materialize.min.js"></script>
   </body>
 </html>
